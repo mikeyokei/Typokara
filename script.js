@@ -189,9 +189,9 @@ let processedWords = {}; // Track which words have been processed in each senten
 let explosionDuration = 50; // In frames
 
 function preload() {
-  song = loadSound("Baby.mp3");
-  customFont = loadFont("Sooper-Regular.otf");
-  videoClip = createVideo("cat.mp4"); 
+  song = loadSound("assets/Baby.mp3");
+  customFont = loadFont("assets/Sooper-Regular.otf");
+  videoClip = createVideo("assets/cat.mp4"); 
   videoClip.volume(0);
   videoClip.hide(); 
   videoClip.loop();
